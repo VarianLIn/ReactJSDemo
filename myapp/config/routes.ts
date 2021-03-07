@@ -37,6 +37,12 @@
     ],
   },
   {
+    path: '/numberInput',
+    name: 'numberInput',
+    icon: '一、',
+    component: './Homework',
+  },
+  {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',

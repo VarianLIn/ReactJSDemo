@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Card, Typography, Alert } from 'antd';
+import { Card, Typography, Alert,Input } from 'antd';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import { useIntl } from 'umi';
 
@@ -38,6 +38,7 @@ export default (): React.ReactNode => {
         </a>
         。
       </p>
+      <Input placeholder="基本使用" />
     </PageHeaderWrapper>
   );
 };
