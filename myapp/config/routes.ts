@@ -1,4 +1,11 @@
-﻿export default [
+﻿/*
+ * @Author: LIn bowen
+ * @Date: 2021-03-02 09:04:24
+ * @LastEditors: LIn bowen
+ * @LastEditTime: 2021-03-30 15:29:51
+ * @Descripttion:
+ */
+export default [
   {
     path: '/user',
     layout: false,
@@ -41,6 +48,17 @@
     name: 'numberInput',
     icon: '一、',
     component: './Homework',
+  },
+  {
+    path: '/map',
+    name: 'map',
+    icon: '二、',
+    component: './Map',
+    layout: {
+      hideMenu: false,
+      hideNav: false,
+      hideFooter: true,
+    },
   },
   {
     name: 'list.table-list',
