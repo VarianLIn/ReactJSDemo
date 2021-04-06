@@ -2,7 +2,7 @@
  * @Author: LIn bowen
  * @Date: 2021-04-01 14:13:25
  * @LastEditors: LIn bowen
- * @LastEditTime: 2021-04-02 10:56:46
+ * @LastEditTime: 2021-04-06 16:16:01
  * @Descripttion:
  */
 export default [
@@ -62,6 +62,11 @@ export default [
     path: '/custom',
     name: 'custom',
     component: './CustomComps',
+  },
+  {
+    path: '/map',
+    name: 'maptest',
+    component: './MapPage',
   },
   {
     component: './404',
