@@ -2,7 +2,7 @@
  * @Author: LIn bowen
  * @Date: 2021-04-01 14:13:25
  * @LastEditors: LIn bowen
- * @LastEditTime: 2021-04-01 14:59:04
+ * @LastEditTime: 2021-04-02 10:56:46
  * @Descripttion:
  */
 export default [
@@ -51,12 +51,17 @@ export default [
   },
   {
     path: '/',
-    redirect: '/test',
+    redirect: '/welcome',
   },
+  // {
+  //   path: '/test',
+  //   name: 'test',
+  //   component: './Test',
+  // },
   {
-    path: '/test',
-    name: 'test',
-    component: './Test',
+    path: '/custom',
+    name: 'custom',
+    component: './CustomComps',
   },
   {
     component: './404',

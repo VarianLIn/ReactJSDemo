@@ -2,12 +2,13 @@
  * @Author: LIn bowen
  * @Date: 2021-04-01 14:13:26
  * @LastEditors: LIn bowen
- * @LastEditTime: 2021-04-02 09:34:28
- * @Descripttion: 
+ * @LastEditTime: 2021-04-02 10:54:42
+ * @Descripttion:
  */
 export default {
   'menu.test': '测试',
-
+  'menu.custom': '自定义测试',
+  
   'menu.welcome': '欢迎',
   'menu.more-blocks': '更多区块',
   'menu.home': '首页',
