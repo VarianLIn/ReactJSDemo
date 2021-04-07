@@ -2,7 +2,7 @@
  * @Author: LIn bowen
  * @Date: 2021-04-01 14:13:25
  * @LastEditors: LIn bowen
- * @LastEditTime: 2021-04-06 16:16:01
+ * @LastEditTime: 2021-04-07 17:32:27
  * @Descripttion:
  */
 export default [
@@ -65,7 +65,7 @@ export default [
   },
   {
     path: '/map',
-    name: 'maptest',
+    // name: 'maptest',
     component: './MapPage',
   },
   {
